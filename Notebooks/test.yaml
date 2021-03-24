@@ -1,0 +1,5 @@
+test: ../test/images
+val: ../test/images
+
+nc: 2
+names: ['mask', 'no-mask']
