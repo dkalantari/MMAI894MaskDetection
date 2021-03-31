@@ -52,6 +52,10 @@ Learning hyperparameters such as learning rate were chosen in an iterative manne
 
 <p align="center"> ![Object Detection](https://i.ibb.co/0tHfFgg/object-dection1.png) 
 </p>
+<p align="center">
+  <img src="https://i.ibb.co/0tHfFgg/object-dection1.png" />
+</p>
+
 
 ## Criterion for evaluation: Precision & mAP
 
