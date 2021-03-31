@@ -50,8 +50,6 @@ Transfer learning was employed to use the model weights of the Scaled-YOLOv4 mod
 Learning hyperparameters such as learning rate were chosen in an iterative manner, with recommendations taken on choices of values based on available architecture.
 
 
-<p align="center"> ![Object Detection](https://i.ibb.co/0tHfFgg/object-dection1.png) 
-</p>
 <p align="center">
   <img src="https://i.ibb.co/0tHfFgg/object-dection1.png" />
 </p>
@@ -66,7 +64,8 @@ The Average Precision (AP) or Mean Average Precision (mAP) is averaged over all 
 Figure below shows after several iterations our model’s average precision score with a recall more than 80% allowing it to capture most ground truth object while not being too imprecise in classifying them.
 
 
-<p align="center"> ![Object Detection](https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg)
+<p align="center">
+  <img src="https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg" />
 </p>
 
 
@@ -80,7 +79,15 @@ Video Inferencing results from final model achieving over mAP > 75%:
 [![Group Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true)]((https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true))
 
 
-
+<p align="center">
+  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif" />
+</p>
+<p align="center">
+  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true" />
+</p>
+<p align="center">
+  <img src="https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg" />
+</p>
 
 
 ## Conclusion & Future Implementation
