@@ -1,5 +1,5 @@
 # Face Mask Detection
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_v330.ipynb)  
 ##### Face Mask Detection system built with Keras/TensorFlow using Transfer Learning Scaled YOLOv4 model and Computer Vision concepts in order to detect mask or non-mask wearing  in static images as well as in videos.
 #
 #
@@ -23,7 +23,7 @@ git clone https://github.com/dkalantari/MMAI894MaskDetection.git
 ```
 Or for quick implementation, simply hit the 'Open in Colab' at the top of this page or link below, and once opened Colab make sure to Save a Copy in Drive:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_v330.ipynb)  
 ```sh
 File ->  'Save a Copy in Drive'
 Runtime -> 'Run All'
