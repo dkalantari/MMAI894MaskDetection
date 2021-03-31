@@ -74,19 +74,20 @@ Our experimentation with increasing the number of epochs pushed the model to per
 
 Video Inferencing results from final model achieving over mAP > 75%:
 
-[![Team Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true)](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2.gif?raw=true)
-[![Crowd Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true)](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft.gif?raw=true)
-[![Group Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true)]((https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true))
 
-
+Team Inference
 <p align="center">
-  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif" />
+  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true" />
 </p>
+
+Inference of People
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true" />
 </p>
+
+Group Inference
 <p align="center">
-  <img src="https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg" />
+  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true" />
 </p>
 
 
