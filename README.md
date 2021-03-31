@@ -67,9 +67,11 @@ Our experimentation with increasing the number of epochs pushed the model to per
 
 Video Inferencing results from final model achieving over mAP > 75%:
 
-[![Crowd Inference](https://i.ibb.co/m9bC9Qs/team-bef-aft2.gif)
-[![Crowd Inference](https://i.ibb.co/096hK0L/crowd-bef-aft.gif)
-[![Crowd Inference](https://i.ibb.co/8gM4PtN/group-bef-aft.gif)
+
+![Crowd Inference](https://i.ibb.co/r2dnX5t/group-bef-aft.gif)
+
+
+
 
 ## Conclusion & Future Implementation
 
@@ -276,3 +278,10 @@ AngularJS-powered HTML5 Markdown editor.
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
    [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+
+<img src="https://i.ibb.co/dQpvHdM/2stage-detector.png" alt="2stage-detector" border="0">
+<img src="https://i.ibb.co/5M0dVpr/object-dection1.png" alt="object-dection1" border="0">
+<img src="https://i.ibb.co/G9pRCsg/coco-comparison-chart.png" alt="coco-comparison-chart" border="0">
+<img src="https://i.ibb.co/G33Gb2j/object-dection1.gif" alt="object-dection1" border="0">
+<img src="https://i.ibb.co/P4n82P1/fig22-good-on-groundtruth.jpg" alt="fig22-good-on-groundtruth" border="0">
+<img src="https://i.ibb.co/rH1JStq/tensorboard-result1.jpg" alt="tensorboard-result1" border="0">
