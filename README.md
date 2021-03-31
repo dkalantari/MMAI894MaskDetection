@@ -50,7 +50,8 @@ Transfer learning was employed to use the model weights of the Scaled-YOLOv4 mod
 Learning hyperparameters such as learning rate were chosen in an iterative manner, with recommendations taken on choices of values based on available architecture.
 
 
-![Object Detection](https://i.ibb.co/0tHfFgg/object-dection1.png)
+<p align="center"> ![Object Detection](https://i.ibb.co/0tHfFgg/object-dection1.png) 
+</p>
 
 ## Criterion for evaluation: Precision & mAP
 
@@ -60,7 +61,10 @@ The Average Precision (AP) or Mean Average Precision (mAP) is averaged over all 
 
 Figure below shows after several iterations our model’s average precision score with a recall more than 80% allowing it to capture most ground truth object while not being too imprecise in classifying them.
 
-![Object Detection](https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg)
+
+<p align="center"> ![Object Detection](https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg)
+</p>
+
 
 Our experimentation with increasing the number of epochs pushed the model to perform considerably better than only 25 epochs as it allowed the model to have higher passes through a considerably bigger dataset and therefore optimize the weights more effectively by gathering more features from each training batch.
 ![Tensorbaord_results](https://i.ibb.co/XFp5xNb/tensorboard-result1.jpg)
