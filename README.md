@@ -70,7 +70,11 @@ Figure below shows after several iterations our model’s average precision scor
 
 
 Our experimentation with increasing the number of epochs pushed the model to perform considerably better than only 25 epochs as it allowed the model to have higher passes through a considerably bigger dataset and therefore optimize the weights more effectively by gathering more features from each training batch.
-![Tensorbaord_results](https://i.ibb.co/XFp5xNb/tensorboard-result1.jpg)
+
+<p align="center"> Tensorboard Metric Results</p>
+<p align="center">
+  <img src="https://i.ibb.co/XFp5xNb/tensorboard-result1.jpg" />
+</p>
 
 Video Inferencing results from final model achieving over mAP > 75%:
 
