@@ -103,15 +103,6 @@ Video Inferencing results from final model achieving over mAP > 75%:
 
 Bremner Inc. is a multinational professional consulting firm specialized in the field of computer vision. We provide end-to-end computer vision solutions which are tailored to solve complex business problems and help our clients achieve their goals through the use of AI. Below are the team members that helped implement this project:
 
-<p align="center"> | Name | Role | </p>
-<p align="center"> | ------ | ------ | </p>
-<p align="center"> | Dara Kalantari  | Project Manager | </p>
-<p align="center"> | Moiz Zafar | Business Consultant | </p>
-<p align="center"> | Devin Datt | Machine Learning Engineer |</p>
-<p align="center"> | Yi Liu    | Machine Learning Engineer |</p>
-<p align="center"> | Milind | Data Scientist |</p>
-<p align="center"> | Paul Longo | Data Scientist |</p>
-<p align="center"> | Tianchen (Ray) Guo  | Data Scientist |</p>
 
 
 | Name | Role |
