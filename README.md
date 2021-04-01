@@ -71,25 +71,25 @@ Figure below shows after several iterations our model’s average precision scor
 
 Our experimentation with increasing the number of epochs pushed the model to perform considerably better than only 25 epochs as it allowed the model to have higher passes through a considerably bigger dataset and therefore optimize the weights more effectively by gathering more features from each training batch.
 
-<p align="center"> Tensorboard Metric Results</p>
+<p align="center"> <b>Tensorboard Metric Results </b></p>
 <p align="center">
   <img src="https://i.ibb.co/XFp5xNb/tensorboard-result1.jpg" />
 </p>
 
 Video Inferencing results from final model achieving over mAP > 75%:
 
-<p align="center"> Team Inference in Various Conditions</p>
+<p align="center"> <b>Team Inference in Various Conditions</b></p>
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true" />
 </p>
 
-<p align="center"> Inference of People Walking in a Crowd</p>
+<p align="center"> <b>Inference of People Walking in a Crowd</b></p>
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true" />
 </p>
 
 
-<p align="center"> Inference of a Group Putting on Masks</p>
+<p align="center"> <b>Inference of a Group Putting on Masks</b></p>
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true" />
 </p>
