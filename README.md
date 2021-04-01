@@ -75,17 +75,17 @@ Our experimentation with increasing the number of epochs pushed the model to per
 Video Inferencing results from final model achieving over mAP > 75%:
 
 
-Team Inference
+p {text-align: center;}  <p> Team Inference </p>
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true" />
 </p>
 
-Inference of People
+p {text-align: center;}  <p> Inference of People </p>
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true" />
 </p>
 
-Group Inference
+p {text-align: center;}  <p> Group Inference </p>
 <p align="center">
   <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true" />
 </p>
