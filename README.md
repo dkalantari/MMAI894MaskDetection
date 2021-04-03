@@ -1,5 +1,7 @@
 # Face Mask Detection
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_v330.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_Vfinal.ipynb)  
+
+
 ##### Face Mask Detection system built with Keras/TensorFlow using Transfer Learning Scaled YOLOv4 model and Computer Vision concepts in order to detect mask or non-mask wearing  in static images as well as in videos.
 #
 #
@@ -23,7 +25,7 @@ git clone https://github.com/dkalantari/MMAI894MaskDetection.git
 ```
 Or for quick implementation, simply hit the 'Open in Colab' at the top of this page or link below, and once opened Colab make sure to Save a Copy in Drive:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_v330.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_Vfinal.ipynb)  
 ```sh
 File ->  'Save a Copy in Drive'
 Runtime -> 'Run All'
@@ -50,10 +52,7 @@ Transfer learning was employed to use the model weights of the Scaled-YOLOv4 mod
 Learning hyperparameters such as learning rate were chosen in an iterative manner, with recommendations taken on choices of values based on available architecture.
 
 
-<p align="center">
-  <img src="https://i.ibb.co/0tHfFgg/object-dection1.png" />
-</p>
-
+![Object Detection](https://i.ibb.co/0tHfFgg/object-dection1.png)
 
 ## Criterion for evaluation: Precision & mAP
 
@@ -63,36 +62,20 @@ The Average Precision (AP) or Mean Average Precision (mAP) is averaged over all 
 
 Figure below shows after several iterations our model’s average precision score with a recall more than 80% allowing it to capture most ground truth object while not being too imprecise in classifying them.
 
-
-<p align="center">
-  <img src="https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg" />
-</p>
-
+![Object Detection](https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg)
 
 Our experimentation with increasing the number of epochs pushed the model to perform considerably better than only 25 epochs as it allowed the model to have higher passes through a considerably bigger dataset and therefore optimize the weights more effectively by gathering more features from each training batch.
-
-<p align="center"> <b>Tensorboard Metric Results </b></p>
-<p align="center">
-  <img src="https://i.ibb.co/XFp5xNb/tensorboard-result1.jpg" />
-</p>
-
-Video Inferencing results from final model achieving over mAP > 75%:
-
-<p align="center"> <b>Team Inference in Various Conditions</b></p>
-<p align="center">
-  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true" />
-</p>
-
-<p align="center"> <b>Inference of People Walking in a Crowd</b></p>
-<p align="center">
-  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true" />
-</p>
+![Tensorbaord_results](https://i.ibb.co/JpvygmN/tensorboard-result1.png)
 
 
-<p align="center"> <b>Inference of a Group Putting on Masks</b></p>
-<p align="center">
-  <img src="https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true" />
-</p>
+Video Inferencing results from final model using Weight results and achieving over mAP > 75%:
+
+[![Team Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true)](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2.gif?raw=true)
+[![Crowd Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true)](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft.gif?raw=true)
+[![Group Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true)]((https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/group_bef_aft_small.gif?raw=true))
+
+
+
 
 
 ## Conclusion & Future Implementation
@@ -102,8 +85,6 @@ Video Inferencing results from final model achieving over mAP > 75%:
 ## Team Contributors
 
 Bremner Inc. is a multinational professional consulting firm specialized in the field of computer vision. We provide end-to-end computer vision solutions which are tailored to solve complex business problems and help our clients achieve their goals through the use of AI. Below are the team members that helped implement this project:
-
-
 
 | Name | Role |
 | ------ | ------ |
