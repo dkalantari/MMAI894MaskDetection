@@ -68,7 +68,9 @@ Our experimentation with increasing the number of epochs pushed the model to per
 ![Tensorbaord_results](https://i.ibb.co/JpvygmN/tensorboard-result1.png)
 
 
-Video Inferencing results from final model using Weight results and achieving over mAP > 75%:
+![Inference_results](https://i.ibb.co/xDMdD22/test-inferencing-score.png)
+
+Video Inferencing results from final model using our Best Weight file results and achieved over mAP >75%:
 
 [![Team Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2_small.gif?raw=true)](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/team_bef_aft2.gif?raw=true)
 [![Crowd Inference](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft_small.gif?raw=true)](https://github.com/dkalantari/MMAI894MaskDetection/blob/main/Assets/crowd_bef_aft.gif?raw=true)
