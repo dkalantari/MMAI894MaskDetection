@@ -2,7 +2,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dkalantari/MMAI894MaskDetection/blob/main/Notebooks/894_Bremner_Mask_Detection_ScaledYOLOv4_Vfinal.ipynb)  
 
 
-##### Face Mask Detection system built with Keras/TensorFlow using Transfer Learning Scaled YOLOv4 model and Computer Vision concepts in order to detect mask or non-mask wearing  in static images as well as in videos.
+##### Face Mask Detection algorithm built in PyTorch using Transfer Learning from SOTA Scaled YOLOv4 model and Computer Vision concepts to detect mask or non-mask wearing in static images as well as in videos.
 #
 #
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)    [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
@@ -61,7 +61,7 @@ Figure below shows after several iterations our model’s average precision scor
 
 ![Object Detection](https://i.ibb.co/TLTTDFs/fig22-good-on-groundtruth.jpg)
 
-Our experimentation with increasing the number of epochs pushed the model to perform considerably better than only 25 epochs as it allowed the model to have higher passes through a considerably bigger dataset and therefore optimize the weights more effectively by gathering more features from each training batch.
+Our experimentation with increasing the number of epochs pushed the model to perform considerably better than only 25 epochs as it allowed the model to have greater number of passes through the dataset and therefore learn the weights more effectively by performing more feature-extractions from each training batch.  We have also experimented with other model parameters and hyperparameters to finalize on the best model.
 ![Tensorbaord_results](https://i.ibb.co/JpvygmN/tensorboard-result1.png)
 
 ### Inference Performance on Test Data (mAP@.5 85.1%, Recall 88.6%, Precision 57.3%):
